@@ -1,0 +1,5 @@
+Program NGU
+    Const S = 10
+    Type T = Int
+    Type C = Int
+    Var A : Int

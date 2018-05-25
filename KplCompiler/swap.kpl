@@ -1,0 +1,9 @@
+program swap;
+
+var x:integer;
+    y:char;
+    z:integer;
+
+begin
+    x, y, z:= y, 'a', 1;
+end.

@@ -1,0 +1,8 @@
+program ngu;
+const S = 10;
+type t = integer;
+    c = t;
+var A: c;
+begin 
+    A := 10000;
+end.
