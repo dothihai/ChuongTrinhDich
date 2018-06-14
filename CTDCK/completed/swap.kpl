@@ -1,0 +1,16 @@
+program swap;
+
+var x:integer;
+    y:char;
+    z:integer;
+begin
+    x, y, z :=  10,'d', -3+2;
+    CALL WRITEI(x);
+    call writec('/');
+    CALL WRITEI(z);
+    call writec('/');
+    x,z:= z,x;
+    CALL WRITEI(x);
+    call writec('/');
+    CALL WRITEI(z);
+end.
