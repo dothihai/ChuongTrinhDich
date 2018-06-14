@@ -1,0 +1,10 @@
+Program abs;
+
+VAR N: INTEGER;
+    ABS: INTEGER;
+    C: char;
+BEGIN
+    N := ReadI;
+    ABS := IF N > 0 RETURN N ELSE RETURN -N;
+    call writei(ABS);
+END.
