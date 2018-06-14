@@ -1,0 +1,19 @@
+program dayso;
+var N:INTEGER;
+    DU: INTEGER;
+BEGIN
+    N := READI;
+    WHILE N != 1 DO
+        BEGIN
+            CALL WRITEI(N);
+            CALL WRITEC(',');
+            DU := N - 2*(N/2);
+            IF DU = 0 THEN
+                N := N/2
+            ELSE 
+                N := N*3+1;
+        END;
+    CALL WRITEI(1);
+END.
+
+
