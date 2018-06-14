@@ -1,0 +1,13 @@
+PROGRAM giaithua;
+VAR n : INTEGER;
+	i : INTEGER;
+	giaithua : INTEGER;
+BEGIN
+	n := READI;
+	giaithua := 1;
+	FOR i:= 1 TO n DO
+		BEGIN
+			giaithua := giaithua * i;
+		END;
+	CALL WriteI(giaithua);
+END.
